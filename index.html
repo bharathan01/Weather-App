@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <h1>Weather App</h1>
+        </div>
+    </header>
+    <main>
+        <div class="main_body">
+            <div class="search_bar">
+                <input type="text" id="search_input" placeholder="search..." class="input">
+                <button class="search_btn" type="submit" onclick="fetchData()">search</button>
+            </div>
+            <div class="content">
+                <div class="conatiner">
+                    <div class="content_fst">
+                        <div class="weather_img"></div>
+                        <div class="weather" >
+                            <h2 class="country" id = "country_name">-- </h1>
+                            <h2 class="temp"id= "temper">--°c</h2>
+                            <h2 class="condition" id="clouds">--</h2>
+                        </div>
+                    </div>
+                    <div class="week">
+                        <div class="sun week_day">Sunday   <h5 >--</h5></div>
+                        <div class="mon week_day">Monday   <h5>--</h5></div>
+                        <div class="tus week_day">tuesday  <h5>--</h5></div>
+                        <div class="wen week_day">Wednesday<h5>--</h5></div>
+                        <div class="tes week_day">Thursday<h5>--</h5></div>
+                        <div class="fri week_day">Friday<h5>--</h5></div>
+                        <div class="sat week_day">Satureday<h5 >--</h5></div>
+
+                    </div>
+                </div>
+                
+                <div class="content_sec">
+                    <div class="weather_value"><i class="fa-light fa fa-eye" aria-hidden="true" ></i> visibilty <h5 id="visibility">--</h5></div>
+                    <div class="weather_value"><i class="fa-light fa fa-wind" aria-hidden="true"></i> wind <h5 id="win">--</h5></div>
+                    <div class="weather_value"><i class="fa-brands fa-slack"></i> humidity <h5 id="hum">--</h5></div>
+                    <div class="weather_value" ><i class="fa-solid fa-chart-simple"></i> Pressure <h5 id="press">--</h5></div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+</body>
+<script src="./JavaScript/index.js"></script>
+<script src="https://kit.fontawesome.com/2265084165.js" crossorigin="anonymous"></script>
+
+</html>
