@@ -4,8 +4,8 @@
   
 }
 body{
-background-image: url(/images/bg.png);
-background-repeat: no-repeat;
+background-image: url(../images/bg.png);
+background-repeat: no-repeat; 
 
 }
 header{
@@ -108,7 +108,7 @@ main{
  .weather_img{
     width: 50%;
     height: 200px;
-    background-image: url('/images/logo.png');
+    background-image: url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: center ;
  }
